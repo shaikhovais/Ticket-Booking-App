@@ -1,0 +1,77 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seatContainer {
+  background-color: azure;
+  height: 75%;
+  margin: 30px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.seatContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.emptySeat,
+.bookedSeat,
+.selectedSeat {
+  height: 30px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ffd700;
+  color: #115173;
+}
+
+.emptySeat {
+  background-color: white;
+}
+
+.bookedSeat {
+  background-color: rgb(184, 189, 194);
+  border: 1px solid rgb(184, 189, 194);
+  color: white;
+}
+
+.selectedSeat {
+  background-color: #ffd700;
+  color: #115173;
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffd700;
+  color: #053f5e;
+  cursor: pointer;
+}
+
+.wrapper button:hover {
+  background-color: #ffd700;
+  color: #053f5e;
+}
+
+/* .bookedSeats */
+@media (max-width: 500px) {
+  .emptySeat,
+  .bookedSeat,
+  .selectedSeat {
+    height: 25px;
+    width: 30px;
+    font-size: 13px;
+  }
+}

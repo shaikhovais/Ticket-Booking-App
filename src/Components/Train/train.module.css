@@ -1,0 +1,27 @@
+.train {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../Images/platform.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 650px;
+}
+
+.train img {
+    transition: all 1s ease-in-out;
+    transform: translateX(-200%);
+}
+
+@media(max-width: 500px) {
+    .train {
+        height: 100px;
+        width: 300px;
+    }
+
+    .train img {
+        height: 100px;
+        width: 100%;
+    }
+}

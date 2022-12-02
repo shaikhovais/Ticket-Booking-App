@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding: 15px 30px;
+    background-color: #277faf;
+    border: 2px solid #FFD700;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.container h1 {
+    font-size: 25px;
+    color: black;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.container button {
+    font-size: 15px;
+    margin: 0px;
+}
+
+@media(max-width: 500px) {
+    .container {
+        padding: 5px;
+    }
+}
