@@ -2,7 +2,7 @@ This is a responsive ticket booking app for a train.
 
 Tech stack Used: ReactJS
 
-Hosted URL: https://unstop-assignment.netlify.app/
+Hosted URL: https://booking-ticket-train.netlify.app/
 
 Algorithm behind ticket booking is:
 1. One person can reserve up to 7 seats at a time.
